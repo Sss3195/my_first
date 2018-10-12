@@ -7,6 +7,12 @@
 //
 
 import Foundation
-
-print("Hello, World!")
+var base = 1
+let power = 100
+var answer = 0
+for _ in 1...power {
+    answer += base
+    base += 1
+}
+print(answer)
 
